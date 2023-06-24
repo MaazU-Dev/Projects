@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "680191098842",
+    "project_id": "flashchatmaaz",
+    "storage_bucket": "flashchatmaaz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680191098842:android:26813450b38c6dcab40ae3",
+        "android_client_info": {
+          "package_name": "com.MaazU.flash_chat_maaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680191098842-ua3nm3r9fm77eldm4hn1tla8sis2cvct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaz697oS4sceYZx_c-s-QeX-PZEO73tQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680191098842-ua3nm3r9fm77eldm4hn1tla8sis2cvct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
