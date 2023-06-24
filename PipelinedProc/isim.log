@@ -1,0 +1,223 @@
+ISim log file
+Running: C:\Users\vboxuser\Desktop\PipelinedProc\MainUwUtb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/vboxuser/Desktop/PipelinedProc/MainUwUtb_isim_beh.wdb 
+ISim P.58f (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING: File "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 62.  For instance uut/u0/, width 32 of formal port PCAddressInstr is not equal to width 1 of actual signal finalPCAddress.
+WARNING: File "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 25.  For instance uut/p3/, width 32 of formal port iPC is not equal to width 4 of actual signal nextPCEX.
+WARNING: File "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 33.  For instance uut/p3/, width 32 of formal port oPC is not equal to width 4 of actual signal nextPCMEM.
+WARNING: File "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 62.  For instance uut/u900/, width 32 of formal port y is not equal to width 1 of actual signal finalPCAddress.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Output: 00
+Output: 00
+Output: 01
+ALUResult = 0000001e
+Output: 02
+ALUResult = 0000000a
+Output: 03
+ALUResult = 0000001e
+Output: 04
+ALUResult = 00000000
+Output: 05
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 00000015
+Output: 15
+ALUResult = xxxxxxxx
+Output: xx
+Stopped at time : 170 ns : File "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwUtb.v" Line 33
+# run 1.00us
+Output: xx
+Output: xx
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 00000015
+Output: 15
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 00000015
+Output: 15
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 00000015
+Output: 15
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 00000015
+Output: 15
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 00000015
+Output: 15
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 00000000
+Output: 00
+ALUResult = 0000001e
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 00000015
+Output: 15
+ALUResult = xxxxxxxx
+Output: xx
+Output: xx
+Output: xx
+ALUResult = 0000001e
+Output: 1e
+ALUResult = 0000000a
+Output: 0a
+ALUResult = 0000001e

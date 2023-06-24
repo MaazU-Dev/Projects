@@ -1,0 +1,63 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/vboxuser/Desktop/PipelinedProc/MainUwUtb_isim_beh.exe -prj C:/Users/vboxuser/Desktop/PipelinedProc/MainUwUtb_beh.prj work.MainUwUtb work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/SignExt.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/shiftLeftForJump.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/RegFile.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/PCModule.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/mux3x1.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/MUX2.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/MUX.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/MEMWB.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/jumpAddressConcat.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/InstrMem.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/IFID.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/IDEX.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/HazardDetectionUnit.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/ForwardingUnit.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/EXMEM.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/DataMem.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/BranchComputation.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/ALUControl.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/ALU.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" into library work
+Analyzing Verilog file "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwUtb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 117: Size mismatch in connection of port <y>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 62: Size mismatch in connection of port <PCAddressInstr>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 106: Size mismatch in connection of port <iPC>. Formal port size is 32-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "C:/Users/vboxuser/Desktop/PipelinedProc/MainUwU.v" Line 107: Size mismatch in connection of port <oPC>. Formal port size is 32-bit while actual signal size is 4-bit.
+Completed static elaboration
+Compiling module ForwardingUnit
+Compiling module HazardDetectionUnit
+Compiling module PCModule
+Compiling module InstrMem
+Compiling module IFID
+Compiling module shiftLeftForJump
+Compiling module jumpAddressJoin
+Compiling module controlUnit
+Compiling module mux5b
+Compiling module RegFile
+Compiling module signExt
+Compiling module ALUcontrol
+Compiling module IDEX
+Compiling module mux32b
+Compiling module mux3x1
+Compiling module ALU
+Compiling module BranchComputation
+Compiling module EXMEM
+Compiling module DataMem
+Compiling module MEMWB
+Compiling module MainUwU
+Compiling module MainUwUtb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable C:/Users/vboxuser/Desktop/PipelinedProc/MainUwUtb_isim_beh.exe
+Fuse Memory Usage: 29060 KB
+Fuse CPU Usage: 874 ms

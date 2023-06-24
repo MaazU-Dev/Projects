@@ -1,0 +1,6 @@
+verilog isim_temp "PCAdder.v"
+verilog isim_temp "InstrMem.v"
+verilog isim_temp "IFID.v"
+verilog isim_temp "MainUwU.v"
+verilog isim_temp "MainUwUtb.v"
+verilog isim_temp "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

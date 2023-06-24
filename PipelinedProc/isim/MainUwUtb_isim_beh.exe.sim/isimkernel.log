@@ -1,0 +1,29 @@
+Command line:
+   MainUwUtb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49529
+
+Fri Jun 23 07:36:39 2023
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 510.226 Meg
+
+ Total Signals          : 219
+ Total Nets             : 1321
+ Total Signal Drivers   : 92
+ Total Blocks           : 27
+ Total Primitive Blocks : 25
+ Total Processes        : 130
+ Total Traceable Variables  : 109
+ Total Scalar Nets and Variables : 8324
+Total Line Count : 307
+
+ Total Simulation Time: 1.15625 sec
+
+ Current Memory Usage: 510.226 Meg
+
+Sat Jun 24 01:12:34 2023
+
